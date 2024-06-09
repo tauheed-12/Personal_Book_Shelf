@@ -57,6 +57,7 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 li {
@@ -75,6 +76,7 @@ li {
     text-align: center;
     color: white;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .headContent2 {
@@ -158,6 +160,10 @@ li {
         gap: 10px;
     }
 
+    .headContent h1 {
+        font-size: 22px;
+    }
+
     .headContent1 {
         align-items: center;
     }
@@ -173,6 +179,10 @@ li {
     .card {
         width: 100%;
         padding: 1rem;
+    }
+
+    .headContent input {
+        margin-right: 0;
     }
 }
 
